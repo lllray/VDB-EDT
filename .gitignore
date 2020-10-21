@@ -18,3 +18,5 @@ devel
 devel/*
 logs
 logs/*
+
+src/vdb_edt/cmake-build-debug/
