@@ -2,8 +2,6 @@
 
 <launch>
     <!-- start VDB-EDT-->
-    <node pkg="tf" type="static_transform_publisher" name="tf_world_camera_rgb_optical_frame"
-          args="0 0 0 0 0 0  world camera_rgb_optical_frame 100"/>
     <node name="vdbmap" pkg="vdb_edt" type="vdb_edt_node">
 	<!--probabilistic mapping-->        
 	<param name="l_free" 	value="-0.13"/>
@@ -32,8 +30,4 @@
 	<param name="vis_map_maxy" 	  value="200.0"/>
 	<param name="vis_map_maxz" 	  value="10.0"/>
     </node>
-
-
 </launch>
-
-
